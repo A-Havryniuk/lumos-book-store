@@ -23,3 +23,4 @@ There will be two roles of users:
   * write to the support (chatting with manager)
   * view reviews/rates
   * add review/mark
+  * view book preview/several pages
