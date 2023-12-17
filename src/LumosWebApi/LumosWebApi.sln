@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LumosWebApi", "LumosWebApi\LumosWebApi.csproj", "{3EA0C714-4B21-443B-9C79-EF132D5F0477}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LumosWebApi", "LumosWebApi\LumosWebApi.csproj", "{3EA0C714-4B21-443B-9C79-EF132D5F0477}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lumos.Application", "Application\Lumos.Application.csproj", "{BFAA394A-3B49-44E5-84F7-A36C3D0E4F9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lumos.Infrastucture", "Infrastucture\Lumos.Infrastucture.csproj", "{3D9C7C60-1695-4FE3-8A9D-50B2BC1872DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lumos.Domain", "Domain\Lumos.Domain.csproj", "{20DABA71-72E6-494A-8479-1CE2A1A754C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{3EA0C714-4B21-443B-9C79-EF132D5F0477}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EA0C714-4B21-443B-9C79-EF132D5F0477}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EA0C714-4B21-443B-9C79-EF132D5F0477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFAA394A-3B49-44E5-84F7-A36C3D0E4F9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFAA394A-3B49-44E5-84F7-A36C3D0E4F9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFAA394A-3B49-44E5-84F7-A36C3D0E4F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFAA394A-3B49-44E5-84F7-A36C3D0E4F9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D9C7C60-1695-4FE3-8A9D-50B2BC1872DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D9C7C60-1695-4FE3-8A9D-50B2BC1872DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D9C7C60-1695-4FE3-8A9D-50B2BC1872DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D9C7C60-1695-4FE3-8A9D-50B2BC1872DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20DABA71-72E6-494A-8479-1CE2A1A754C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20DABA71-72E6-494A-8479-1CE2A1A754C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20DABA71-72E6-494A-8479-1CE2A1A754C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20DABA71-72E6-494A-8479-1CE2A1A754C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
