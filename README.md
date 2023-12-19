@@ -2,7 +2,7 @@
 
 Web-application for book store 'Lumos'
 There will be two roles of users:
-* Admins:
+* Admin:
   * Add books
   * Edit books
   * Delete books
