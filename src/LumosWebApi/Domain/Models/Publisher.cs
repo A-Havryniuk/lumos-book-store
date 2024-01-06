@@ -9,10 +9,8 @@ namespace Lumos.Domain.Models
 {
     public class Publisher
     {
-        [Key]
         public int PublisherId { get; set; }
 
-        [Required]
         public string PublisherName { get; set;}
 
         ICollection<Book> Books { get; set; }

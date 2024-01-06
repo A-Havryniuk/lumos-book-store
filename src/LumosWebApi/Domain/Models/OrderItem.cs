@@ -11,12 +11,9 @@ namespace Lumos.Domain.Models
     // Order - Book / one to many
     public class OrderItem
     {
-        [Key]
-        [Column(Order = 0)]
+
         public int OrderId { get; set; }
 
-        [Key]
-        [Column(Order = 1)]
         public int BookId { get; set; }
 
         public int Quantity { get; set; }

@@ -10,11 +10,12 @@ namespace Lumos.Domain.Models
 {
     public class User
     {
-        [Key]
         public int UserId { get; set; }
 
         public string UserName { get; set; }
-        public string Password { get; set; }
+        public string Salt { get; set; }
+        public string PasswordHash { get; set; }
+
         public int RoleId { get; set; }
         [ForeignKey("RoleId")]
         public Role Role { get; set; }

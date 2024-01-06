@@ -10,15 +10,12 @@ namespace Lumos.Domain.Models
 {
     public class Order
     {
-        [Key]
         public int OrderId { get; set; }
 
-        [Required]
         public int UserId { get; set; }
 
         public DateOnly OrderDate { get; set; }
 
-        [Required]
         public float TotalPrice { get; set; }
 
         [ForeignKey("UserId")]

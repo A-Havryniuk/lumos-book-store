@@ -10,8 +10,7 @@ namespace Lumos.Domain.Models
 {
     public class CartItem
     {
-        [Key]
-        public int CartId { get; set; }
+        public int CartItemId { get; set; }
 
         [Required]
         public int UserId { get; set; }

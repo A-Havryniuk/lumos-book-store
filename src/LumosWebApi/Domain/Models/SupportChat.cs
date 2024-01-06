@@ -8,5 +8,8 @@ namespace Lumos.Domain.Models
 {
     public class SupportChat
     {
+        public int SupportChatId { get; set; }
+        public int ManagerId { get; set; }
+        public int CustomerId { get; set; }
     }
 }

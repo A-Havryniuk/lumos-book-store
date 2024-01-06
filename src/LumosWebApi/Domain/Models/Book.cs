@@ -11,10 +11,10 @@ namespace Lumos.Domain.Models
 {
     public class Book
     {
-        [Key]
+
         public int BookId { get; set; }
 
-        [Required]
+
         public string Title { get; set; }
 
         public string Author { get; set; }
